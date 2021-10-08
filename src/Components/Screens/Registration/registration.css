@@ -1,0 +1,105 @@
+.registration-body{
+    height: 100%;
+    width: 100%;
+    margin: 0;   
+    
+}
+
+.registration-section{
+     width: 100vw;
+     background-image: url(../../../images/green3.png);
+     background-repeat: none;
+     background-size: cover;
+     /* background: linear-gradient(rgba(20, 206, 76, 0.527), rgba(10, 182, 76, 0.199)); */
+     display: flex;
+     height: 100vh;
+     margin-left: -.5%;
+    
+
+     
+}
+
+.registration-return-link{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+
+.col-md-6  {
+    /* margin-top: 4rem; */
+
+}
+
+.offset-xl-1{
+   margin-top: 1.4rem;
+   margin-left: 35%;
+   margin-top: 6rem;
+   width: 30vw;
+   height: 80vh;
+  
+}
+
+.col-xl-5{
+
+
+
+}
+
+.card-form{
+    
+}
+
+.registration-form-section form{
+   background: linear-gradient(rgba(20, 206, 76, 0.527), rgba(10, 182, 76, 0.199));
+   width: 25vw;
+   height: 70vh;
+   border-radius: 9px;
+   padding: 2.5rem;
+   justify-content: center;
+   border-style: double;
+
+}
+
+.form-card-field{
+    width: 15vw;
+    height: 1px;
+    border-radius: 9px;
+    margin-top: 5%;
+    margin-left: 10%;
+    /* margin-top: 1rem; */
+    padding: 2.5rem;  
+    border-style: double;
+    background-color: rgba(20, 192, 29, 0.37);
+    justify-content: center;
+    
+
+}
+
+
+.form-card-field input{
+    width: 110% !important;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 400;
+    resize: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    text-align: center;
+    margin-left: -15px;
+
+}
+
+.registration-form-section button{
+    margin-left: 4rem;
+    margin-top: 3rem;
+    font-size: 25px;
+    height: 2rem;
+    width: auto;  
+
+
+}

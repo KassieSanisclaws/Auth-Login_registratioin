@@ -1,0 +1,82 @@
+.topbar-container{
+    height: 100%;
+    width: 100vw;
+    margin: 0;
+    margin-top: -.5%;
+    margin-left: -.5rem;
+    box-sizing: border-box;
+    background: linear-gradient(rgba(20, 206, 76, 0.527), rgba(10, 182, 76, 0.199));
+}
+
+
+.topbar-content{
+    height: 8vh;
+    width: 100%;
+   
+}
+
+
+.topbar-header-section img{
+    margin-right: auto;
+    height: 4.5%;
+    width: 4.5%;
+    border-radius: 50%;
+    margin-top: -1.5%;
+
+}
+
+
+.topbar-header-section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+
+.topbar-header-section input{
+    background-color: blue;
+    width: 10%;
+
+
+}
+
+
+.topbar-header-section span{
+    margin-right: 15%;
+}
+
+
+.topbar-header-section li{
+    /* background-color: yellowgreen; */
+    display: inline-block;
+    padding: 10px 25px;
+    margin-top: -2rem;
+}
+
+.topbar-header-section li a{
+    transition: all 0.3s ease 0s;
+
+}
+
+
+.topbar-header-section li a:hover{
+    background-color: crimson;
+}
+
+
+.topbar-header-section button{
+    background-color: rgb(196, 196, 196);
+    border-radius: 5px;
+    width: 5vw;
+    height: 4vh;
+    
+
+
+}
+
+
+.topbar-header-section button:hover{
+      transition: all 0.3s ease 0s;
+      background-color: crimson;
+}
